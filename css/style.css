@@ -1216,3 +1216,99 @@ img { max-width: 100%; height: auto; display: block; }
   }
   .story-tabs { justify-content: flex-start; }
 }
+
+/* ---- FigmaToCode-Inspired Component Polish ---- */
+.hero-kicker {
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+.hero .secondary-cta {
+  color: #fff;
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.22);
+}
+.hero .secondary-cta:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.edit-tile {
+  position: relative;
+  min-height: 178px;
+}
+.edit-tile small {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  color: rgba(255,255,255,0.56);
+  font-size: 0.75rem;
+  font-weight: 900;
+}
+.edit-tile::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.28) 100%);
+  pointer-events: none;
+}
+.edit-tile span,
+.edit-tile strong,
+.edit-tile small {
+  position: relative;
+  z-index: 1;
+}
+.review-card,
+.library-article.rich-card,
+.content-card,
+.metric-card {
+  will-change: transform;
+}
+.review-card .card-body,
+.rich-card-body {
+  min-height: 214px;
+}
+.library-article.rich-card {
+  background: #fff;
+}
+.library-article.rich-card h2 a {
+  color: var(--primary);
+}
+.library-article.rich-card h2 a:hover {
+  color: var(--accent-hover);
+}
+.story-tabs {
+  scrollbar-width: none;
+}
+.story-tabs::-webkit-scrollbar,
+.editorial-strip-inner::-webkit-scrollbar {
+  display: none;
+}
+.latest-stories-heading {
+  background: linear-gradient(180deg, transparent 60%, rgba(201,168,76,0.11) 60%);
+}
+.magazine-newsletter input {
+  min-height: 52px;
+}
+.magazine-newsletter button {
+  min-height: 52px;
+}
+@media (max-width: 768px) {
+  .hero-actions,
+  .page-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hero-actions a,
+  .page-hero-actions a {
+    justify-content: center;
+  }
+}
