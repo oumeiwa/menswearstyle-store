@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-label="Merino Sweaters For Office Layering">
+  <rect width="1200" height="780" fill="#151b14"/>
+  <circle cx="250" cy="120" r="148" fill="#6f7f63" opacity="0.2"/>
+  <path d="M0 220 L720 315 L720 405 L0 405 Z" fill="#6f7f63" opacity="0.28" transform="scale(1.6667 1.9259)"/>
+  <rect x="82" y="86" width="1036" height="608" rx="30" fill="none" stroke="#6f7f63" stroke-width="3" opacity="0.65"/>
+  <text x="96" y="142" fill="#6f7f63" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="5">KNITWEAR / LAYERING</text>
+  <text x="96" y="618" fill="#fff" font-family="Georgia, serif" font-size="62" font-weight="700">Merino Sweaters For Office</text>
+  <text x="96" y="682" fill="#fff" font-family="Georgia, serif" font-size="52" font-weight="700" opacity="0.92">Layering</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-label="Trench Coat Or Mac Coat?">
+  <rect width="1200" height="780" fill="#1c1a14"/>
+  <circle cx="160" cy="230" r="130" fill="#a58a5a" opacity="0.2"/>
+  <path d="M0 315 L720 205 L720 405 L0 405 Z" fill="#a58a5a" opacity="0.28" transform="scale(1.6667 1.9259)"/>
+  <rect x="82" y="86" width="1036" height="608" rx="30" fill="none" stroke="#a58a5a" stroke-width="3" opacity="0.65"/>
+  <text x="96" y="142" fill="#a58a5a" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="5">OUTERWEAR / RAIN</text>
+  <text x="96" y="618" fill="#fff" font-family="Georgia, serif" font-size="62" font-weight="700">Trench Coat Or Mac</text>
+  <text x="96" y="682" fill="#fff" font-family="Georgia, serif" font-size="52" font-weight="700" opacity="0.92">Coat?</text>
+</svg>
