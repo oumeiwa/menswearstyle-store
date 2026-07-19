@@ -1,5 +1,5 @@
 /* ============================================
-   menswearstyle.store — Main Scripts
+   menswearstyle.store - Main Scripts
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
     toggle.addEventListener('click', () => {
       navList.classList.toggle('open');
       const expanded = toggle.getAttribute('aria-expanded') === 'true';
-      toggle.setAttribute('aria-expanded', !expanded);
-      toggle.innerHTML = navList.classList.contains('open') ? '✕' : '☰';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      toggle.textContent = navList.classList.contains('open') ? 'Close' : 'Menu';
     });
 
     // Close nav on link click (mobile)
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
       link.addEventListener('click', () => {
         navList.classList.remove('open');
         toggle.setAttribute('aria-expanded', 'false');
-        toggle.innerHTML = '☰';
+        toggle.textContent = 'Menu';
       });
     });
 
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!e.target.closest('.header-inner') && navList.classList.contains('open')) {
         navList.classList.remove('open');
         toggle.setAttribute('aria-expanded', 'false');
-        toggle.innerHTML = '☰';
+        toggle.textContent = 'Menu';
       }
     });
   }
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Simple success feedback
         const originalBtn = newsletterForm.querySelector('button');
         const originalText = originalBtn.textContent;
-        originalBtn.textContent = '✓ Subscribed!';
+        originalBtn.textContent = 'Subscribed!';
         originalBtn.style.background = '#4caf50';
         originalBtn.style.color = '#fff';
         input.value = '';
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       const btn = contactForm.querySelector('.submit-btn');
       const originalText = btn.textContent;
-      btn.textContent = '✓ Message Sent!';
+      btn.textContent = 'Message Sent!';
       btn.style.background = '#4caf50';
       btn.disabled = true;
       setTimeout(() => {
