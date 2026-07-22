@@ -53,6 +53,10 @@
               <dt>Tool Scope</dt>
               <dd>Internal Google Ads Search Campaign workflow</dd>
             </div>
+            <div>
+              <dt>OAuth Scope</dt>
+              <dd>Google Ads API adwords scope</dd>
+            </div>
           </dl>
         </aside>
       </div>
@@ -68,14 +72,15 @@
 
         <section>
           <h2>2. Identity And Application Alignment</h2>
-          <p>The Google Ads API project is represented as an independent developer project for internal Search Campaign workflow operations. The project should be registered with the same developer identity, website domain, application homepage, privacy policy URL and developer contact address shown on this website.</p>
+          <p>The Google Ads API project is represented as an independent developer project for internal Search Campaign workflow operations. The project should be registered with the same developer identity, company type, website domain, application homepage, privacy policy URL and developer contact address shown on this website.</p>
+          <p>When the Google Ads API form requests company type, the intended selection is Google Ads Independent Developer. The application homepage should be https://menswearstyle.store/google-ads-api-tool/ and the developer contact email should be <a class="contact-link" href="mailto:google-ads-api@menswearstyle.store">google-ads-api@menswearstyle.store</a>.</p>
           <p>The project does not claim to be a Google partner, a Google-certified service, a public advertising SaaS platform, or a corporate entity unless separately verified in official business records.</p>
         </section>
 
         <section>
           <h2>3. Google OAuth Usage</h2>
           <p>The internal tool uses Google OAuth 2.0 so an authorized user can grant access to approved Google Ads accounts. The tool does not request, receive, or store Google account passwords.</p>
-          <p>OAuth authorization is used only to support the Google Ads API functions described on this website: Search Campaign creation, campaign management and reporting for authorized accounts.</p>
+          <p>OAuth authorization is used only to support the Google Ads API functions described on this website: Search Campaign creation, campaign management and reporting for authorized accounts. The requested Google OAuth scope is https://www.googleapis.com/auth/adwords.</p>
         </section>
 
         <section>
@@ -120,12 +125,12 @@
 
         <section>
           <h2>6. Account Authorization</h2>
-          <p>The tool is intended for internal users only. Access is limited to Google Ads accounts that have been explicitly authorized through OAuth 2.0 by a permitted user. The tool does not support unauthorized account access.</p>
+          <p>The tool is intended for internal users only. Access is limited to Google Ads accounts owned by the developer or accounts that have been explicitly authorized through OAuth 2.0 by a permitted user. The tool does not support unauthorized account access, public signup, account resale, account creation, or third-party access without authorization.</p>
         </section>
 
         <section>
           <h2>7. Data Retention</h2>
-          <p>Campaign workflow records may be retained only as needed for internal validation, campaign management, audit review and reporting. Records that are no longer required for these purposes can be deleted upon request.</p>
+          <p>Campaign workflow records may be retained only as needed for internal validation, campaign management, audit review and reporting. Records that are no longer required for these purposes can be deleted upon request. Deletion requests are reviewed and processed within a reasonable operational period, normally within 30 days unless retention is required for security, legal, or audit reasons.</p>
         </section>
 
         <section>

@@ -50,6 +50,10 @@
               <dd>Lian Shuai, Independent Developer</dd>
             </div>
             <div>
+              <dt>Application Type</dt>
+              <dd>Google Ads Independent Developer</dd>
+            </div>
+            <div>
               <dt>Users</dt>
               <dd>Internal users only</dd>
             </div>
@@ -102,7 +106,7 @@
           <div>
             <span class="label">Application Entity</span>
             <h3>Independent Developer</h3>
-            <p>The project is represented as an independent developer tool maintained by Lian Shuai. It does not present itself as a corporation, Google partner, agency network, marketplace, or public SaaS product.</p>
+            <p>The project is represented as an independent developer tool maintained by Lian Shuai. The Google Ads API application should use the company type "Google Ads Independent Developer" when that option is available. It does not present itself as a corporation, Google partner, agency network, marketplace, or public SaaS product.</p>
           </div>
           <div>
             <span class="label">Public Pages</span>
@@ -110,6 +114,39 @@
             <p>The application homepage is this page, and the privacy policy is published at <a class="contact-link" href="/privacy-policy/">/privacy-policy/</a>. OAuth consent screen text, developer token details and website descriptions should use the same project scope.</p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="content-section alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Application Details</h2>
+          <p class="section-subtitle">Information intended to match the Google Ads API developer token application</p>
+        </div>
+        <table class="data-table">
+          <tbody>
+            <tr>
+              <td>Developer contact email</td>
+              <td><a class="contact-link" href="mailto:google-ads-api@menswearstyle.store">google-ads-api@menswearstyle.store</a></td>
+              <td>Role-based mailbox on the same domain as the application website.</td>
+            </tr>
+            <tr>
+              <td>Application homepage</td>
+              <td>https://menswearstyle.store/google-ads-api-tool/</td>
+              <td>Public description of the internal Google Ads workflow tool.</td>
+            </tr>
+            <tr>
+              <td>Privacy policy URL</td>
+              <td>https://menswearstyle.store/privacy-policy/</td>
+              <td>Google OAuth and Google Ads API data handling policy.</td>
+            </tr>
+            <tr>
+              <td>OAuth scope</td>
+              <td>https://www.googleapis.com/auth/adwords</td>
+              <td>Used only for authorized Google Ads account operations described on this page.</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
 
@@ -129,6 +166,8 @@
             <li>It does not replace Google Ads Editor.</li>
             <li>It does not scrape Google services or third-party websites.</li>
             <li>It does not access accounts that have not granted authorization.</li>
+            <li>It does not provide public signup, self-service account access, resale access, or third-party account access.</li>
+            <li>It does not create Google Ads accounts or manager accounts.</li>
             <li>It does not promise campaign performance, revenue, or optimization outcomes.</li>
           </ul>
         </article>
@@ -282,7 +321,7 @@
             <tr>
               <td>OAuth 2.0 Authorization</td>
               <td>Allow an authorized user to connect approved Google Ads accounts.</td>
-              <td>Google passwords are not requested or stored. Access can be revoked from the user's Google account settings.</td>
+              <td>The requested scope is https://www.googleapis.com/auth/adwords. Google passwords are not requested or stored. Access can be revoked from the user's Google account settings.</td>
             </tr>
             <tr>
               <td>Campaign Data</td>
@@ -334,7 +373,7 @@
         <div class="faq-list">
           <article class="faq-item">
             <h3>Who uses this tool?</h3>
-            <p>The tool is intended for internal users only. It is not presented as a public self-service advertising product.</p>
+            <p>The tool is intended for internal users only. It is not presented as a public self-service advertising product and does not offer public signup.</p>
           </article>
           <article class="faq-item">
             <h3>Why is Google Ads API access needed?</h3>
